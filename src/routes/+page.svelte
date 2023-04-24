@@ -83,7 +83,7 @@
   <div class="flex flex-col w-full px-0 items-center h-full">
 	<div class="chat-container w-full bg-gray-900 rounded-md p-4 overflow-y-auto flex flex-col gap-4">
 	  <div class="flex flex-col gap-2">
-		<ChatMessage type="assistant" message="What do you want!" />
+		<ChatMessage type="assistant" message="Greetings! I am Sigmund Freud, the father of psychoanalysis. Let's delve into the mysteries of the human mind and our unconscious desires." />
 		{#each chatMessages as message}
 		  <ChatMessage type={message.role} message={message.content} />
 		{/each}
